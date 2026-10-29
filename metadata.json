@@ -1,0 +1,6 @@
+{
+  "name": "Rams Dental Clinic",
+  "description": "Premium dental clinic in Thiruvanmiyur, Chennai offering comprehensive dental care and personalized appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #18344A;
+    overflow-x: hidden;
+  }
+}
+
+/* Smooth Focus States */
+*:focus-visible {
+  outline: 2px solid #2875AA;
+  outline-offset: 2px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F8FB;
+}
+::-webkit-scrollbar-thumb {
+  background: #67A9D8;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2875AA;
+}
